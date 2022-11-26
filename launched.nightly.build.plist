@@ -10,16 +10,13 @@
 			<string>-c</string>
 			<string>/Users/alex/Developer/Tools/nightly_build.sh</string>
 		</array>
+		<key>RunAtLoad</key>
+		<true/>
+		<key>StartInterval</key>
+		<integer>21600</integer>
 		<key>StandardErrorPath</key>
 		<string>/tmp/com.apple.restart.stderr</string>
 		<key>StandardOutPath</key>
 		<string>/tmp/com.apple.restart.stdout</string>
-		<key>StartCalendarInterval</key>
-		<dict>
-			<key>Hour</key>
-			<integer>4</integer>
-			<key>Minute</key>
-			<integer>30</integer>
-		</dict>
 	</dict>
 </plist>
